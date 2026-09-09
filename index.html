@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experiência Prática III - SPA Front-end</title>
+
+  <!-- Folhas de Estilo -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Biblioteca Externa: SweetAlert2 -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+  <!-- Cabeçalho / Menu de Navegação -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="imagens/logo.png" alt="Logo do Projeto" id="app-logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contêiner Principal da SPA onde as telas serão injetadas -->
+  <main id="app"></main>
+
+  <!-- Script Principal da Aplicação -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
